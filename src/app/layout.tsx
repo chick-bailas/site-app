@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import Analytics from "@/components/Analytics";
 
 export const metadata: Metadata = {
-  title: "Chick-Bailas Holding",
+  title: "Chick-Bailas",
 };
 
 export default function RootLayout({
@@ -13,6 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
