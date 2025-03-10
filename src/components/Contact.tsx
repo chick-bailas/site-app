@@ -29,9 +29,9 @@ const Contact = () => {
   return (
     <Container size="md" id="contact-us">
       <form
-        onSubmit={form.onSubmit(() => {
-          // @TODO: Handle form submission
-        })}
+        action="mailto:info@chick-bailas.com"
+        method="post"
+        encType="text/plain"
       >
         <Title
           order={2}
