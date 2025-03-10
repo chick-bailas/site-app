@@ -70,7 +70,7 @@ export function Services() {
   ));
 
   return (
-    <Container className={classes.wrapper}>
+    <Container className={classes.wrapper} id="services">
       <Title className={classes.title}>
         Integrate effortlessly with any technology stack
       </Title>
