@@ -1,0 +1,15 @@
+.header {
+  height: 56px;
+  background-color: var(--mantine-color-body);
+}
+
+.inner {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  min-width: 12rem;
+}
